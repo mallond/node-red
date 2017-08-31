@@ -46,10 +46,10 @@ and an html file that defines the node’s properties, edit dialog and help text
 
 > When packaged as an npm module, a package.json file is used to pull it all together.
 
-- package.json
-- aModuleFile.js
-- anHtmlFile.html
+- package.json [Package Guide](https://nodered.org/docs/creating-nodes/packaging)
+- aModuleFile.js [Javascript Guide](https://nodered.org/docs/creating-nodes/node-js)
+- anHtmlFile.html [HTML Guide](https://nodered.org/docs/creating-nodes/node-html)
 
-> you can create multiple NODES in different directories each haveing the same three files: package.json, aMdouleFile.js, anHtmlFile.html
+> You can create multiple NODES in different directories each haveing the same three files: package.json, aMdouleFile.js, anHtmlFile.html
 
 
