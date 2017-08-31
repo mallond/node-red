@@ -1,4 +1,4 @@
-# node-red
+# Node-RED
 Node-Red Notes and Playground
 
 ## Start NODE-RED using PM2
@@ -27,9 +27,12 @@ You will then need to stop and restart Node-RED for it to pick-up the new nodes.
 ```
 ```
 
-## Extra Nodes by Node-Red
-https://github.com/node-red/node-red-nodes
-https://github.com/node-red/node-red-web-nodes
-https://github.com/node-red/node-red-auth-github
-https://github.com/node-red/node-red-node-swagger
+## Extra Cool Nodes by Node-Red
+[RED Nodes](https://github.com/node-red/node-red-nodes)
+[RED Web](https://github.com/node-red/node-red-web-nodes)
+[RED Authentication](https://github.com/node-red/node-red-auth-github)
+[RED Swagger](https://github.com/node-red/node-red-node-swagger)
+
+
+## Creating Nodes
 
