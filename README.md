@@ -23,7 +23,7 @@ You will then need to stop and restart Node-RED for it to pick-up the new nodes.
 
 > Extra for development see below Module Linking
 
-## Module Linking from this repo to local node-red
+## Module Linking for Local Development
 
 > To test a node module locally, the npm link command can be used. This allows you to develop the node in a local directory and have it linked into a local node-red install, as if it had been npm installed.
 
@@ -46,7 +46,7 @@ You will then need to stop and restart Node-RED for it to pick-up the new nodes.
 [RED Swagger](https://github.com/node-red/node-red-node-swagger)
 
 
-## Creating Nodes
+## Creating Nodes - Super Simple, Just read all in the three links below
 
 > They consist of a pair of files; 
 a JavaScript file that defines what the node does, 
@@ -60,4 +60,14 @@ and an html file that defines the node’s properties, edit dialog and help text
 
 > You can create multiple NODES in different directories each haveing the same three files: package.json, aMdouleFile.js, anHtmlFile.html
 
-
+[Creating your first node](https://nodered.org/docs/creating-nodes/first-node)
+[JavaScript File](https://nodered.org/docs/creating-nodes/node-js)
+[HTML File](https://nodered.org/docs/creating-nodes/node-html)
+[Node context](https://nodered.org/docs/creating-nodes/context)
+[Node properties](https://nodered.org/docs/creating-nodes/properties)
+[Node appearance](https://nodered.org/docs/creating-nodes/appearance)
+[Node status](https://nodered.org/docs/creating-nodes/status)
+[Configuration nodes](https://nodered.org/docs/creating-nodes/config-nodes)
+[Help style guide](https://nodered.org/docs/creating-nodes/help-style-guide)
+[Packaging](https://nodered.org/docs/creating-nodes/packaging)
+[Internationalisation](https://nodered.org/docs/creating-nodes/i18n)
