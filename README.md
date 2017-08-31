@@ -24,8 +24,16 @@ You will then need to stop and restart Node-RED for it to pick-up the new nodes.
 > Extra for development see below Module Linking
 
 ## Module Linking from this repo to local node-red
+
+> To test a node module locally, the npm link command can be used. This allows you to develop the node in a local directory and have it linked into a local node-red install, as if it had been npm installed.
+
 ```
+  1. in the directory containing the node’s package.json file, run: sudo npm link.
+  2. in your node-red user directory, typically ~/.node-red run: npm link <name of node module>.
+
 ```
+> This creates the appropriate symbolic links between the two directories so Node-RED will discover the node when it starts. Any changes to the node’s file can be picked up by simply restarting Node-RED.
+
 
 ## Extra Cool Nodes by Node-Red
 
