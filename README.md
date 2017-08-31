@@ -71,3 +71,28 @@ and an html file that defines the node’s properties, edit dialog and help text
 - [Help style guide](https://nodered.org/docs/creating-nodes/help-style-guide)
 - [Packaging](https://nodered.org/docs/creating-nodes/packaging)
 - [Internationalisation](https://nodered.org/docs/creating-nodes/i18n)
+
+
+### General guidance
+
+#### Nodes should:
+
+- be well-defined in their purpose.
+
+
+- be simple to use, regardless of the underlying functionality.
+
+
+- be forgiving in what types of message properties it accepts.
+
+
+- be consistent in what they send.
+
+
+- sit at the beginning, middle or end of a flow - not all at once.
+
+- catch errors.
+
+> If a node throws an uncaught error, Node-RED will stop the entire flow as the state of the system is no longer known.
+
+> Wherever possible, nodes must catch errors or register error handlers for any asynchronous calls they make.
