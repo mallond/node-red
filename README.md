@@ -40,3 +40,7 @@ You will then need to stop and restart Node-RED for it to pick-up the new nodes.
 
 ## Creating Nodes
 
+> They consist of a pair of files; 
+a JavaScript file that defines what the node does, 
+and an html file that defines the node’s properties, edit dialog and help text.
+
