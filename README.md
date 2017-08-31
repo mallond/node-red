@@ -44,3 +44,12 @@ You will then need to stop and restart Node-RED for it to pick-up the new nodes.
 a JavaScript file that defines what the node does, 
 and an html file that defines the node’s properties, edit dialog and help text.
 
+> When packaged as an npm module, a package.json file is used to pull it all together.
+
+- package.json
+- aModuleFile.js
+- anHtmlFile.html
+
+> you can create multiple NODES in different directories each haveing the same three files: package.json, aMdouleFile.js, anHtmlFile.html
+
+
