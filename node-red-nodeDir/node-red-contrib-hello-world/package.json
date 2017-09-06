@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "node-red-contrib-hello-world",
+        "scope": null,
+        "escapedName": "node-red-contrib-hello-world",
+        "name": "node-red-contrib-hello-world",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/dm/Git/node-red/node-red-nodeDir"
+    ]
+  ],
+  "_from": "node-red-contrib-hello-world@latest",
+  "_id": "node-red-contrib-hello-world@0.0.5",
+  "_inCache": true,
+  "_location": "/node-red-contrib-hello-world",
+  "_nodeVersion": "0.12.5",
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/node-red-contrib-hello-world-0.0.5.tgz_1458541806331_0.6813086830079556"
+  },
+  "_npmUser": {
+    "name": "noralife",
+    "email": "noralife@gmail.com"
+  },
+  "_npmVersion": "2.11.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "node-red-contrib-hello-world",
+    "scope": null,
+    "escapedName": "node-red-contrib-hello-world",
+    "name": "node-red-contrib-hello-world",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-red-contrib-hello-world/-/node-red-contrib-hello-world-0.0.5.tgz",
+  "_shasum": "a33bc80da77c712c1c8272867f6d73f42b463729",
+  "_shrinkwrap": null,
+  "_spec": "node-red-contrib-hello-world",
+  "_where": "/Users/dm/Git/node-red/node-red-nodeDir",
+  "author": {
+    "name": "Tatsuya Nanjo",
+    "email": "noralife@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/noralife/node-red-contrib-hello-world/issues"
+  },
+  "dependencies": {},
+  "description": "A Node-RED node to show Hello World.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "a33bc80da77c712c1c8272867f6d73f42b463729",
+    "tarball": "https://registry.npmjs.org/node-red-contrib-hello-world/-/node-red-contrib-hello-world-0.0.5.tgz"
+  },
+  "gitHead": "d9e3bffe24431ed886ccc7cea6f1bac58cc6fa8b",
+  "homepage": "https://github.com/noralife/node-red-contrib-hello-world#readme",
+  "keywords": [
+    "node-red"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "noralife",
+      "email": "noralife@gmail.com"
+    }
+  ],
+  "name": "node-red-contrib-hello-world",
+  "node-red": {
+    "nodes": {
+      "hello-world": "hello-world/hello-world.js"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noralife/node-red-contrib-hello-world.git"
+  },
+  "scripts": {},
+  "version": "0.0.5"
+}

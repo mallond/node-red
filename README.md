@@ -96,3 +96,12 @@ and an html file that defines the node’s properties, edit dialog and help text
 > If a node throws an uncaught error, Node-RED will stop the entire flow as the state of the system is no longer known.
 
 > Wherever possible, nodes must catch errors or register error handlers for any asynchronous calls they make.
+
+
+
+```
+sudo npm install -g --unsafe-perm node-red
+node-red --settings settings.js
+
+
+```
