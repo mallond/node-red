@@ -369,6 +369,48 @@
      "local": false,
      "module": "node-red",
      "file": "/Users/dm/Git/node-red/node-red-nodeDir/pipe1/pipe1.js"
+    },
+    "wunder": {
+     "name": "wunder",
+     "types": [
+      "wunderground",
+      "wunderground in"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/Users/dm/Git/node-red/node-red-nodeDir/weatherunderground/wunder.js"
+    },
+    "pipe2": {
+     "name": "pipe2",
+     "types": [
+      "pipe1",
+      "pipe2"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/Users/dm/Git/node-red/node-red-nodeDir/pipe2/pipe2.js"
+    },
+    "pipe3": {
+     "name": "pipe3",
+     "types": [
+      "pipe3"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/Users/dm/Git/node-red/node-red-nodeDir/pipe3/pipe3.js"
+    },
+    "schema": {
+     "name": "schema",
+     "types": [
+      "json-schema"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/Users/dm/Git/node-red/node-red-nodeDir/node-red-contrib-json-schema/schema.js"
     }
    }
   },

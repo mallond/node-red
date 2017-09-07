@@ -1,0 +1,24 @@
+{
+    "name"          : "node-red-node-weather-underground",
+    "version"       : "0.1.10",
+    "description"   : "A Node-RED node that gets the weather report and forecast from The Weather Underground",
+    "dependencies"  : {
+        "wundergroundnode":"0.11.*"
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/node-red/node-red-web-nodes/tree/master/weatherunderground"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "weather", "wunder", "forecast" ],
+    "node-red"      : {
+        "nodes"     : {
+            "wunder": "wunder.js"
+        }
+    },
+    "author": {
+        "name": "Dave Conway-Jones",
+        "email": "ceejay@vnet.ibm.com",
+        "url": "http://nodered.org"
+    }
+}
