@@ -1,1 +1,164 @@
-[{"id":"c475993.aa73068","type":"http in","z":"61d18005.a08ab","name":"pipe","url":"/pipe","method":"post","upload":false,"swaggerDoc":"","x":166.52778434753418,"y":300.8611364364624,"wires":[["9110a272.e4eb4"]]},{"id":"dae87c7d.a31b5","type":"pipe1","z":"61d18005.a08ab","name":"","x":530.5173740386963,"y":300.96528244018555,"wires":[["cfaac3d6.6331b"]]},{"id":"7f8da641.178f78","type":"http response","z":"61d18005.a08ab","name":"Succss","statusCode":"","headers":{},"x":771.5243892669678,"y":408.451416015625,"wires":[]},{"id":"9110a272.e4eb4","type":"json-schema","z":"61d18005.a08ab","name":"Pipes Schema","func":"{\n  \"properties\": {\n    \"amount\": {\n    \"type\": \"number\"\n    },  \n    \"tax\": {\n      \"type\": \"number\"\n    },\n    \"surcharge\": {\n    \"type\": \"number\"\n    },\n    \"shipping\": {\n    \"type\": \"number\"\n    },\n    \"total\": {\n    \"type\": \"number\"\n    }\n  },\n  \"required\":[\"amount\",\"tax\",\"surcharge\",\"shipping\"]\n}","x":339.520845413208,"y":300.9722328186035,"wires":[["dae87c7d.a31b5"]]},{"id":"8bd9e46b.9a5398","type":"catch","z":"61d18005.a08ab","name":"","scope":null,"x":177.52780532836914,"y":99.73959541320801,"wires":[["fcdbddad.102d4","bad54eca.6f082"]]},{"id":"3d0350b1.56bf8","type":"http response","z":"61d18005.a08ab","name":"errors","statusCode":"400","headers":{},"x":782.5173759460449,"y":93.9652967453003,"wires":[]},{"id":"50b91b6.a698be4","type":"change","z":"61d18005.a08ab","name":"","rules":[{"t":"set","p":"payload","pt":"msg","to":"errors","tot":"msg"}],"action":"","property":"","from":"","to":"","reg":false,"x":568.524299621582,"y":97.62154579162598,"wires":[["3d0350b1.56bf8"]]},{"id":"fcdbddad.102d4","type":"debug","z":"61d18005.a08ab","name":"","active":true,"console":"false","complete":"true","x":338.51391220092773,"y":46.180567264556885,"wires":[]},{"id":"bad54eca.6f082","type":"function","z":"61d18005.a08ab","name":"merge errors","func":"var catchAllErrors = {};\ncatchAllErrors.errors = [];\ncatchAllErrors.errors[0] = msg.error;\ncatchAllErrors.errors[1] = msg._error;\nmsg.errors = catchAllErrors;\nreturn msg;","outputs":1,"noerr":0,"x":354.52782821655273,"y":99.1146011352539,"wires":[["50b91b6.a698be4"]]},{"id":"cfaac3d6.6331b","type":"pipe2","z":"61d18005.a08ab","name":"","x":532.524320602417,"y":359.1215305328369,"wires":[["844b1a86.5876f8"]]},{"id":"844b1a86.5876f8","type":"pipe3","z":"61d18005.a08ab","name":"","x":538.5139446258545,"y":412.09031105041504,"wires":[["7f8da641.178f78"]]}]
+[
+  {
+    "id": "c475993.aa73068",
+    "type": "http in",
+    "z": "61d18005.a08ab",
+    "name": "pipe",
+    "url": "/pipe",
+    "method": "post",
+    "upload": false,
+    "swaggerDoc": "",
+    "x": 166.52778434753418,
+    "y": 300.8611364364624,
+    "wires": [
+      [
+        "9110a272.e4eb4"
+      ]
+    ]
+  },
+  {
+    "id": "dae87c7d.a31b5",
+    "type": "pipe1",
+    "z": "61d18005.a08ab",
+    "name": "",
+    "x": 530.5173740386963,
+    "y": 300.96528244018555,
+    "wires": [
+      [
+        "cfaac3d6.6331b"
+      ]
+    ]
+  },
+  {
+    "id": "7f8da641.178f78",
+    "type": "http response",
+    "z": "61d18005.a08ab",
+    "name": "Succss",
+    "statusCode": "",
+    "headers": {},
+    "x": 771.5243892669678,
+    "y": 408.451416015625,
+    "wires": []
+  },
+  {
+    "id": "9110a272.e4eb4",
+    "type": "json-schema",
+    "z": "61d18005.a08ab",
+    "name": "Pipes Schema",
+    "func": "{\n  \"properties\": {\n    \"amount\": {\n    \"type\": \"number\"\n    },  \n    \"tax\": {\n      \"type\": \"number\"\n    },\n    \"surcharge\": {\n    \"type\": \"number\"\n    },\n    \"shipping\": {\n    \"type\": \"number\"\n    },\n    \"total\": {\n    \"type\": \"number\"\n    }\n  },\n  \"required\":[\"amount\",\"tax\",\"surcharge\",\"shipping\"]\n}",
+    "x": 339.520845413208,
+    "y": 300.9722328186035,
+    "wires": [
+      [
+        "dae87c7d.a31b5"
+      ]
+    ]
+  },
+  {
+    "id": "8bd9e46b.9a5398",
+    "type": "catch",
+    "z": "61d18005.a08ab",
+    "name": "",
+    "scope": null,
+    "x": 177.52780532836914,
+    "y": 99.73959541320801,
+    "wires": [
+      [
+        "fcdbddad.102d4",
+        "bad54eca.6f082"
+      ]
+    ]
+  },
+  {
+    "id": "3d0350b1.56bf8",
+    "type": "http response",
+    "z": "61d18005.a08ab",
+    "name": "errors",
+    "statusCode": "400",
+    "headers": {},
+    "x": 782.5173759460449,
+    "y": 93.9652967453003,
+    "wires": []
+  },
+  {
+    "id": "50b91b6.a698be4",
+    "type": "change",
+    "z": "61d18005.a08ab",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "errors",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 568.524299621582,
+    "y": 97.62154579162598,
+    "wires": [
+      [
+        "3d0350b1.56bf8"
+      ]
+    ]
+  },
+  {
+    "id": "fcdbddad.102d4",
+    "type": "debug",
+    "z": "61d18005.a08ab",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 338.51391220092773,
+    "y": 46.180567264556885,
+    "wires": []
+  },
+  {
+    "id": "bad54eca.6f082",
+    "type": "function",
+    "z": "61d18005.a08ab",
+    "name": "merge errors",
+    "func": "var catchAllErrors = {};\ncatchAllErrors.errors = [];\ncatchAllErrors.errors[0] = msg.error;\ncatchAllErrors.errors[1] = msg._error;\nmsg.errors = catchAllErrors;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 354.52782821655273,
+    "y": 99.1146011352539,
+    "wires": [
+      [
+        "50b91b6.a698be4"
+      ]
+    ]
+  },
+  {
+    "id": "cfaac3d6.6331b",
+    "type": "pipe2",
+    "z": "61d18005.a08ab",
+    "name": "",
+    "x": 532.524320602417,
+    "y": 359.1215305328369,
+    "wires": [
+      [
+        "844b1a86.5876f8"
+      ]
+    ]
+  },
+  {
+    "id": "844b1a86.5876f8",
+    "type": "pipe3",
+    "z": "61d18005.a08ab",
+    "name": "",
+    "x": 538.5139446258545,
+    "y": 412.09031105041504,
+    "wires": [
+      [
+        "7f8da641.178f78"
+      ]
+    ]
+  }
+]
