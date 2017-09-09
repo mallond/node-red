@@ -28,7 +28,7 @@ Node-Red Notes and Playground
 
 
 
-### Installing npm packaged NODES
+## Installing npm packaged NODES
 
 > To install an npm-packaged node, you can either install it locally within your user data directory (by default, $HOME/.node-red):
 
@@ -92,29 +92,29 @@ and an html file that defines the node’s properties, edit dialog and help text
 - [Internationalisation](https://nodered.org/docs/creating-nodes/i18n)
 
 
-### General guidance
+## General guidance
 
-#### Nodes should:
+### Nodes should:
 
-- be well-defined in their purpose.
-
-
-- be simple to use, regardless of the underlying functionality.
+> - be well-defined in their purpose.
 
 
-- be forgiving in what types of message properties it accepts.
+> - be simple to use, regardless of the underlying functionality.
 
 
-- be consistent in what they send.
+> - be forgiving in what types of message properties it accepts.
 
 
-- sit at the beginning, middle or end of a flow - not all at once.
+> - be consistent in what they send.
 
-- catch errors.
 
-> If a node throws an uncaught error, Node-RED will stop the entire flow as the state of the system is no longer known.
+> - sit at the beginning, middle or end of a flow - not all at once.
 
-> Wherever possible, nodes must catch errors or register error handlers for any asynchronous calls they make.
+> - catch errors.
+
+> - If a node throws an uncaught error, Node-RED will stop the entire flow as the state of the system is no longer known.
+
+> - Wherever possible, nodes must catch errors or register error handlers for any asynchronous calls they make.
 
 
 
