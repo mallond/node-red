@@ -13,7 +13,9 @@ This demo and tutorial is an introduction to the installation and usage of simpl
 
 > Install
 ```
-~$ sudo npm install -g --unsafe-perm node-red
+$ sudo npm install -g --unsafe-perm node-red
+
+$ git clone https://github.com/mallond/node-red.git
 
 ```
 
@@ -21,10 +23,7 @@ This demo and tutorial is an introduction to the installation and usage of simpl
 
 > Edit setttings.js
 
-```
-1. Copy settings.js to your project directory
 
-```
 [Setting.js](https://github.com/mallond/node-red/blob/master/settings.js)
 
 
@@ -56,6 +55,24 @@ into the left hand node pane under the category you choose.
 
 
 ```
+node-red-nodeDir/
+├── node-red-contrib-json-schema
+├── pipe1
+├── pipe2
+└── pipe3
+ 
+```
+
+> Git clone - Nodes that will be used
+
+
+```
+$ cd node-red-nodeDir
+$ git clone https://github.com/mallond/node-red-contrib-json-schema.git
+$ git clone https://github.com/mallond/pipe1
+$ git clone https://github.com/mallond/pipe2
+$ git clone https://github.com/mallond/pipe3
+
 node-red-nodeDir/
 ├── node-red-contrib-json-schema
 │   ├── LICENSE
