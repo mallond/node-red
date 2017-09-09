@@ -1,5 +1,7 @@
 # Node-RED Demo and Tutorial
 
+<img src="https://user-images.githubusercontent.com/993459/30244352-e7ecab20-9581-11e7-9624-3ba8bbde1bc2.jpg" align="left"/>
+
 
 1. Install Node-Red Global. Development only.
 2. Custom Settings
