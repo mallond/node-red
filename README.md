@@ -64,6 +64,7 @@ node-red-nodeDir/
     └── pipe3.js
 ```
 
+![pipenodes](https://user-images.githubusercontent.com/993459/30244006-5e7a634c-957b-11e7-84eb-31d9126286fc.png)
 
 ## Start Node-Red with custom Settings 
 
