@@ -121,7 +121,7 @@ node-red-nodeDir/
 
 ## Start Node-Red with custom Settings 
 
-> Start
+> :key: Start
 ```
 ~$  node-red --settings settings.js
 
