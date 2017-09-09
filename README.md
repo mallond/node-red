@@ -42,7 +42,7 @@ into the left hand node pane under the category you choose.
 <div>
 
 
-<img src="https://user-images.githubusercontent.com/993459/30244006-5e7a634c-957b-11e7-84eb-31d9126286fc.png" align="left" style="width:64px;height:64px;" >
+![pipenodes](https://user-images.githubusercontent.com/993459/30244179-9bbc929a-957e-11e7-897e-652cb08cfcd0.png)
 
 ```
 node-red-nodeDir/
