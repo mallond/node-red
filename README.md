@@ -1,11 +1,28 @@
 # Node-RED
 Node-Red Notes and Playground
 
-## Start NODE-RED using PM2
+## Install Node-Red Global. Development only. 
+
+> Install
+```
+~$ sudo npm install -g --unsafe-perm node-red
 
 ```
-nvm use 6.11.2
-pm2 start ~/.nvm/versions/node/v6.11.2/bin/node-red
+
+> Start
+## Start Node-Red with custom Settings 
+```
+~$  node-red --settings settings.js
+
+```
+
+## Custom Settings
+
+> Edit setttings.js
+
+```
+1. Copy settings.js to your project directory
+
 
 ```
 

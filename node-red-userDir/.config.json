@@ -350,16 +350,6 @@
      "module": "node-red",
      "file": "/Users/dm/.nvm/versions/node/v6.11.2/lib/node_modules/node-red/nodes/core/storage/50-file.js"
     },
-    "hello-world": {
-     "name": "hello-world",
-     "types": [
-      "hello-world"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "node-red",
-     "file": "/Users/dm/Git/node-red/node-red-nodeDir/node-red-contrib-hello-world/hello-world/hello-world.js"
-    },
     "pipe1": {
      "name": "pipe1",
      "types": [
@@ -369,17 +359,6 @@
      "local": false,
      "module": "node-red",
      "file": "/Users/dm/Git/node-red/node-red-nodeDir/pipe1/pipe1.js"
-    },
-    "wunder": {
-     "name": "wunder",
-     "types": [
-      "wunderground",
-      "wunderground in"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "node-red",
-     "file": "/Users/dm/Git/node-red/node-red-nodeDir/weatherunderground/wunder.js"
     },
     "pipe2": {
      "name": "pipe2",

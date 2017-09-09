@@ -232,5 +232,21 @@ module.exports = {
             // Whether or not to include audit events in the log output
             audit: false
         }
+    },
+  editorTheme: {
+    page: {
+      title: "Pipe Demo",
+      css: "/Users/dm/Git/node-red/custom.css",
+      favicon: "/Users/dm/Git/node-red/pics/wrench.png"
+    },
+    header: {
+      title: "Pipe Demo",
+      image: "/Users/dm/Git/node-red/pics/wrench.png"
     }
-}
+  },
+  deployButton: {
+    type:"simple",
+    label:"Save",
+    icon: "/Users/dm/Git/node-red/pics/wrench.png" // or null to remove image
+  }
+};

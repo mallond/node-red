@@ -15,7 +15,10 @@
     },
     "total": {
     "type": "number"
+    },
+    "steps": {
+    "type": "array"
     }
   },
-  "required":["amount","tax","surcharge","shipping"]
+  "required":["amount","tax","surcharge","shipping","steps"]
 }

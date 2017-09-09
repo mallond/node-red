@@ -1,0 +1,14 @@
+span.logo {
+    float: left;
+    margin-top: 5px;
+    font-size: 30px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#header {
+
+    background: #37bfdf !important;
+    color: #7e7e7e;
+
+}
