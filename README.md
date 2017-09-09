@@ -3,7 +3,6 @@
 
 - Install Node-Red Global. Development only.
 - Custom Settings
--- Custom Settings - **Important elements** settings.js
 - Start Node-Red with custom Settings
 - Installing npm packaged NODES
 
