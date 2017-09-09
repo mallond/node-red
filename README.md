@@ -37,6 +37,8 @@ Below is an example of the nodesDir that will contain any Git clones you would l
 Within the *.html (example pipe1.html) is an element called 'category', this will place your node
 into the left hand node pane under the category you choose.
 
+>**KEY** *.html 'category' change this element to have your node placed in the category of your choosing. 
+
 ```
 node-red-nodeDir/
 ├── node-red-contrib-json-schema
