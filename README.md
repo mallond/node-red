@@ -9,6 +9,12 @@ The adoption of Node-Red will increase the compatibility of services between mac
 
 This demo and tutorial is an introduction to the installation and usage of simple blocks, or what are 'Pipes' and 'functions' of data.  The reader of this tutorial will see the capabilities of a functional modular design, and the goal is to have the reader an "A-ha moment" in concept and ideas. 
 
+
+
+> ----------------------------------------------------------------
+> Click on SIP: links for short videos :+1:
+> ----------------------------------------------------------------
+
 ## Install Node-Red Global. Development only. 
 
 > Install
