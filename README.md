@@ -7,7 +7,7 @@ IBM donated Node-Red to the JavaScript open source foundation. Node-Red started 
 
 The adoption of Node-Red will increase the compatibility of services between machines and humans. AI agents can use Node-Red to integrate complex systems into Rule Based applications. Machine learning will ensure that simple blocks or pipes of data and services can be glued together as asynchronous patterns that can be both scalable,  adaptable, and profitable.
 
-This demo and tutorial is just an introduction to the installation and usage of simple blocks, or what are 'Pipes' and 'functions' of data.  The reader of this tutorial will see the capabilities of a very functional modular design, and the goal is to have the reader an "A-ha moment" in concept and ideas. 
+This demo and tutorial is just an introduction to the installation and usage of simple blocks, or what are 'Pipes' and 'functions' of data.  The reader of this tutorial will see the capabilities of a functional modular design, and the goal is to have the reader an "A-ha moment" in concept and ideas. 
 
 ## Install Node-Red Global. Development only. 
 
