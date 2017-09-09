@@ -13,11 +13,11 @@ This demo and tutorial is an introduction to the installation and usage of simpl
 
 > ----------------------------------------------------------------
 
-> **Click on SIP**: links for short videos :+1:
+> **Click on SIP**: links for short videos :star:
 
 > ----------------------------------------------------------------
 
-[SIP :star: About this Demo/Tutorial](https://www.youtube.com/watch?v=Uiz702q53lI)
+:star: [SIP: About this Demo/Tutorial](https://www.youtube.com/watch?v=Uiz702q53lI)
 
 
 ## Install Node-Red Global. Development only. 
