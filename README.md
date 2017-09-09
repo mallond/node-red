@@ -69,7 +69,7 @@ node-red-nodeDir/
 ```
 
 
-<div>&nbsp;</div>
+<br/>
 
 ## Start Node-Red with custom Settings 
 
