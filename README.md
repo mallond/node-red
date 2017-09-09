@@ -1,6 +1,6 @@
 # Node-RED Demo and Tutorial
 
-<img src="https://user-images.githubusercontent.com/993459/30244372-4d2a9d08-9582-11e7-9f89-e33f9344e9a3.jpg" align="right"/>
+<img src="https://user-images.githubusercontent.com/993459/30244523-f33faa38-9584-11e7-8ea2-a63bddeaaf32.jpg" align="right"/>
 
 
 IBM donated Node-Red to the JavaScript open source foundation. Node-Red started with the Raspberry PI, as a way to integrate IOT devices and has grown-up and populated itself into IBM’s Watson cloud services. 
