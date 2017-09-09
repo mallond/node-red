@@ -9,14 +9,7 @@ Node-Red Notes and Playground
 
 ```
 
-> Start
-## Start Node-Red with custom Settings 
-```
-~$  node-red --settings settings.js
-
-```
-
-## Custom Settings
+### Custom Settings
 
 > Edit setttings.js
 
@@ -26,7 +19,16 @@ Node-Red Notes and Playground
 
 ```
 
-## Installing npm packaged NODES
+> Start
+### Start Node-Red with custom Settings 
+```
+~$  node-red --settings settings.js
+
+```
+
+
+
+### Installing npm packaged NODES
 
 > To install an npm-packaged node, you can either install it locally within your user data directory (by default, $HOME/.node-red):
 
