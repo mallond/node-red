@@ -24,8 +24,9 @@ This demo and tutorial is an introduction to the installation and usage of simpl
 ```
 1. Copy settings.js to your project directory
 
-
 ```
+(Setting.js)[https://github.com/mallond/node-red/blob/master/settings.js]
+
 
 ### Custom Settings - **Important elements** settings.js
 
