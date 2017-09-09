@@ -1,6 +1,6 @@
 # Node-RED Demo and Tutorial
 
-<img src="https://user-images.githubusercontent.com/993459/30244352-e7ecab20-9581-11e7-9624-3ba8bbde1bc2.jpg" align="left"/>
+<img src="https://user-images.githubusercontent.com/993459/30244372-4d2a9d08-9582-11e7-9f89-e33f9344e9a3.jpg" align="left"/>
 
 
 1. Install Node-Red Global. Development only.
