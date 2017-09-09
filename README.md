@@ -43,12 +43,12 @@ $ git clone https://github.com/mallond/node-red.git
 > By default, all user data is stored in the Node-RED install directory. To
 > use a different location, the following property can be used 
     
-**userDir**: '~/node-red-userDir',
+:key: **userDir**: '~/node-red-userDir',
 
 > Node-RED scans the `nodes` directory in the install directory to find nodes.
 > The following property can be used to specify an additional directory to scan. 
     
-**nodesDir**: '~node-red-nodeDir',
+:key: **nodesDir**: '~node-red-nodeDir',
 
 >**KEY** nodesDir will be where you git clone modules for immediate use. 
 
@@ -56,7 +56,7 @@ Below is an example of the nodesDir that will contain any Git clones you would l
 Within the *.html (example pipe1.html) is an element called 'category', this will place your node
 into the left hand node pane under the category you choose.
 
->**KEY** *.html 'category' change this element to have your node placed in the category of your choosing. 
+:key: *.html 'category' change this element to have your node placed in the category of your choosing. 
 
 <div>
 
@@ -64,6 +64,8 @@ into the left hand node pane under the category you choose.
 <img src="https://user-images.githubusercontent.com/993459/30244179-9bbc929a-957e-11e7-897e-652cb08cfcd0.png" align="right"/>
 
 
+:key: Instead of Using npm install, a better idea is to use git clone. Why? You will have the ablity to modify your nodes along 
+with the Node-Red process environment. 
 
 ```
 node-red-nodeDir/
