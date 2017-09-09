@@ -64,7 +64,7 @@ node-red-nodeDir/
     └── pipe3.js
 ```
 
-<img src="https://user-images.githubusercontent.com/993459/30244006-5e7a634c-957b-11e7-84eb-31d9126286fc.png" align="left" height="50%" width="50%" >
+<img src="https://user-images.githubusercontent.com/993459/30244006-5e7a634c-957b-11e7-84eb-31d9126286fc.png"  height="50%" width="50%" >
 
 
 
