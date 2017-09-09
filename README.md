@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/993459/30244523-f33faa38-9584-11e7-8ea2-a63bddeaaf32.jpg" align="right"/>
 
 
-IBM donated Node-Red to the JavaScript open source foundation. Node-Red started with the Raspberry PI, as a way to integrate IOT devices and has grown-up and populated itself into IBM’s Watson cloud services. 
+IBM donated Node-Red to the JavaScript open source foundation. Node-Red started with the Raspberry PI as a way to integrate IOT devices and has grown-up and populated itself into IBM’s Watson cloud services. 
 
 The adoption of Node-Red will increase the compatibility of services between machines and humans. AI agents can use Node-Red to integrate complex systems into Rule Based applications. Machine learning will ensure that simple blocks or pipes of data and services can be glued together as asynchronous patterns that can be both scalable,  adaptable, and profitable.
 
