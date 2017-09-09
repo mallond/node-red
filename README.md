@@ -1,10 +1,11 @@
 # Node-RED Demo and Tutorial
 
 
-1 Install Node-Red Global. Development only.
-2 Custom Settings
-3 Start Node-Red with custom Settings
-4 Installing npm packaged NODES
+1. Install Node-Red Global. Development only.
+2.  Custom Settings
+ *  Important elements settings.js
+3.  Start Node-Red with custom Settings
+4.  Installing npm packaged NODES
 
 
 ## Install Node-Red Global. Development only. 
