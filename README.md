@@ -3,14 +3,11 @@
 <img src="https://user-images.githubusercontent.com/993459/30244372-4d2a9d08-9582-11e7-9f89-e33f9344e9a3.jpg" align="right"/>
 
 
-1. Install Node-Red Global. Development only.
-2. Custom Settings
- *  Important elements settings.js
-3. Start Node-Red with custom Settings
-4. Installing npm packaged NODES
-5. Extra Cool Nodes by Node-Red
-6. Creating Nodes - Super Simple, Just read all in the three links below
-7. General guidance
+IBM donated Node-Red to the JavaScript open source foundation. Node-Red started with the Raspberry PI, as a way to integrate IOT devices and has grown-up and populated itself into IBM’s Watson cloud services. 
+
+The adoption of Node-Red will increase the compatibility of services between machines and humans. AI agents can use Node-Red to integrate complex systems into Rule Based applications. Machine learning will ensure that simple blocks or pipes of data and services can be glued together as asynchronous patterns that can be both scalable,  adaptable, and profitable.
+
+This demo and tutorial is just an introduction to the installation and usage of simple blocks, or what are 'Pipes' and 'functions' of data.  The reader of this tutorial will see the capabilities of a very functional modular design, and the goal is to have the reader an "A-ha moment" in concept and ideas. 
 
 ## Install Node-Red Global. Development only. 
 
