@@ -171,9 +171,3 @@ and an html file that defines the node’s properties, edit dialog and help text
 
 
 
-```
-sudo npm install -g --unsafe-perm node-red
-node-red --settings settings.js
-
-
-```
