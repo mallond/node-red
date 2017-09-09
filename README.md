@@ -9,7 +9,7 @@ Node-Red Notes and Playground
 
 ```
 
-### Custom Settings
+## Custom Settings
 
 > Edit setttings.js
 
@@ -19,7 +19,7 @@ Node-Red Notes and Playground
 
 ```
 
-#### Custom Setting - **Important elements** settings.js
+### Custom Setting - **Important elements** settings.js
 
 > By default, all user data is stored in the Node-RED install directory. To
 > use a different location, the following property can be used 
@@ -34,7 +34,7 @@ Node-Red Notes and Playground
 >**KEY** nodesDir will be where you git clone modules for immediate use. 
 
 
-### Start Node-Red with custom Settings 
+## Start Node-Red with custom Settings 
 
 > Start
 ```
