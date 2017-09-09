@@ -1,5 +1,12 @@
-# Node-RED
-Node-Red Notes and Playground
+# Node-RED Demo and Tutorial
+
+
+- Install Node-Red Global. Development only.
+- Custom Settings
+-- Custom Settings - **Important elements** settings.js
+- Start Node-Red with custom Settings
+- Installing npm packaged NODES
+
 
 ## Install Node-Red Global. Development only. 
 
