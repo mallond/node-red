@@ -41,8 +41,10 @@ into the left hand node pane under the category you choose.
 
 <div>
 
-<img src="https://user-images.githubusercontent.com/993459/30244006-5e7a634c-957b-11e7-84eb-31d9126286fc.png" align="left" height="50%" width="50%" >
-<code>
+
+<img src="https://user-images.githubusercontent.com/993459/30244006-5e7a634c-957b-11e7-84eb-31d9126286fc.png" align="left" style="width:128px;height:128px;" >
+
+```
 node-red-nodeDir/
 ├── node-red-contrib-json-schema
 │   ├── LICENSE
@@ -65,7 +67,9 @@ node-red-nodeDir/
     ├── package.json
     ├── pipe3.html
     └── pipe3.js
-</code>
+```
+
+
 </div>
 
 ## Start Node-Red with custom Settings 
