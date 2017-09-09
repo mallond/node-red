@@ -17,6 +17,9 @@ This demo and tutorial is an introduction to the installation and usage of simpl
 
 > ----------------------------------------------------------------
 
+[SIP :star: About this Demo/Tutorial](https://www.youtube.com/watch?v=Uiz702q53lI)
+
+
 ## Install Node-Red Global. Development only. 
 
 > Install
@@ -203,3 +206,4 @@ and an html file that defines the node’s properties, edit dialog and help text
 
 ## Just for fun 
 [SIP: 900 Nodes running on Node-Red - Sub second processing](https://www.youtube.com/watch?v=Uiz702q53lI)
+:star:
