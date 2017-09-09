@@ -69,6 +69,12 @@ node-red-nodeDir/
 ```
 $ cd node-red-nodeDir
 $ git clone https://github.com/mallond/node-red-contrib-json-schema.git
+$ cd node-red-contrib-json-schema
+$ npm install
+$ cd ..
+
+Note: The repos do not have package dependencies.
+
 $ git clone https://github.com/mallond/pipe1
 $ git clone https://github.com/mallond/pipe2
 $ git clone https://github.com/mallond/pipe3
