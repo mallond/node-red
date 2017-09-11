@@ -17,7 +17,7 @@ This demo and tutorial is an introduction to the installation and usage of simpl
 
 > ----------------------------------------------------------------
 
-:star: [SIP: About this Demo/Tutorial](https://www.youtube.com/watch?v=Uiz702q53lI)
+:star: [SIP: About this Demo/Tutorial](https://www.youtube.com/watch?v=67DmAiVwpBU)
 
 
 ## Install Node-Red Global. Development only. 
@@ -224,6 +224,10 @@ and an html file that defines the node’s properties, edit dialog and help text
 
 ## Just for fun 
 :star: [SIP: 900 Nodes running on Node-Red - Sub second processing](https://www.youtube.com/watch?v=Uiz702q53lI)
+
+:star: [SIP: 5000 Nodes running on Node-Red - Sub second processing](https://www.youtube.com/watch?v=gzBp1C-SB80)
+
+
 
 
 http://www.easysurf.cc/scintd.htm
