@@ -123,22 +123,38 @@ node-red-nodeDir/
 
 > :key: Start
 ```
-~$  node-red --settings settings.js
+$  node-red --settings settings.js
 
 ```
 
 
 
-## Installing npm packaged NODES
+## Installing Your Custom NODES
 
-> To install an npm-packaged node, you can either install it locally within your user data directory (by default, $HOME/.node-red):
+> To install your custom node, you can either install it locally within :key: **nodesDir** directory:
 
-> During development it is also possible to install nodes by copying their .js and .html files into a nodes directory within your user data directory. If these nodes have any npm dependencies, they must be also be installed within the user data directory. This is only really recommended for development purposes.
+> During development it is also possible to install nodes by copying their .js and .html files into a nodes directory within your :key: **nodesDir**  directory. If these nodes have any npm dependencies, they must be also be installed within the :key: **nodesDir**  directory. This is only really recommended for development purposes.
 
 ```
-cd $HOME/.node-red
-npm install <npm-package-name>
-You will then need to stop and restart Node-RED for it to pick-up the new nodes.
+$ cd **nodesDir** 
+$ git clone <git repo>
+
+You will then need to stop and restart Node-RED for it to pick-up the new nodes. 
+And, if you have modified *.html category element your new Node should appear in the Nodes section.
+
+For this demo
+
+$ cd node-red-nodeDir **nodesDir**
+$ git clone https://github.com/mallond/node-red-contrib-json-schema.git
+$ cd node-red-contrib-json-schema
+$ npm install
+$ cd ..
+$ git clone https://github.com/mallond/pipe1
+$ git clone https://github.com/mallond/pipe2
+$ git clone https://github.com/mallond/pipe3
+
+Note: The pipe1, pipe2, and pipe3 do not have package.json dependencies, so there is no need to npm install.
+
 ```
 
 
@@ -208,3 +224,7 @@ and an html file that defines the node’s properties, edit dialog and help text
 
 ## Just for fun 
 :star: [SIP: 900 Nodes running on Node-Red - Sub second processing](https://www.youtube.com/watch?v=Uiz702q53lI)
+
+
+http://www.easysurf.cc/scintd.htm
+
