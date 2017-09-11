@@ -20,11 +20,11 @@ This demo and tutorial is an introduction to the installation and usage of simpl
 :star: [SIP: About this Demo/Tutorial](https://www.youtube.com/watch?v=67DmAiVwpBU)
 
 
-## Install Node-Red Global. Development only. :star: 
+## Install Node-Red Global. Development only. 
 
 > Install
 
-[SIP: Install Node-RED Global](https://www.youtube.com/watch?v=pplFirxzTNM)
+:star: [SIP: Install Node-RED Global](https://www.youtube.com/watch?v=pplFirxzTNM)
 
 ```
 $ sudo npm install -g --unsafe-perm node-red
