@@ -129,7 +129,7 @@ $  node-red --settings settings.js
 
 
 
-## Installing Your Custom NODES
+## Installing Your Custom Node-RED Nodes
 
 > To install your custom node, you can either install it locally within :key: **nodesDir** directory:
 
